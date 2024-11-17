@@ -1,0 +1,13 @@
+.menu-container {
+  height: 92vh;
+  width: 100%;
+  background-image: url('../assets/Gyome.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: scroll;
+}

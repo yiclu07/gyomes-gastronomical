@@ -1,3 +1,4 @@
+import './MenuContainer.css';
 import MenuItem from "./MenuItem.jsx";
 
 function MenuContainer(props) {
