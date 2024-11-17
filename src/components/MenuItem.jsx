@@ -1,3 +1,5 @@
+import './MenuItem.css';
+
 function MenuItem(props) {
   return (
     <>
