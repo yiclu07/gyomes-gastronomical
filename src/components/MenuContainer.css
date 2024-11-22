@@ -11,3 +11,7 @@
   flex-wrap: wrap;
   overflow: scroll;
 }
+
+.menu-container::-webkit-scrollbar {
+  display: none;
+}

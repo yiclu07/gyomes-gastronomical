@@ -5,13 +5,18 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* background-color: #242424; */
+  background-color: #fff;
   box-sizing: border-box;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+:root::-webkit-scrollbar {
+  display: none;
 }
 
 a {
@@ -31,7 +36,7 @@ body {
   min-height: 100vh;
 }
 
-
+/* Will need to set up the light mode styles later */
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

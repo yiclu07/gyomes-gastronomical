@@ -1,12 +1,14 @@
 #root {
   /* max-width: 1280px; */
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0;
   text-align: center;
   --wotc-blue: rgb(30, 48, 80);
   --click-orange: rgb(162, 64, 42);
 }
 
-
+#root::-webkit-scrollbar {
+  display: none;
+}
 
 
